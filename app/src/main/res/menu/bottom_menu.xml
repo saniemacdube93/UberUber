@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+
+    <item
+        android:id="@+id/action_restaurant"
+        android:enabled="true"
+        android:title="Restaurant"
+        android:icon="@drawable/ic_restaurant"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:id="@+id/action_hospital"
+        android:enabled="true"
+        android:title="Hospital"
+        android:icon="@drawable/ic_hospital"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
